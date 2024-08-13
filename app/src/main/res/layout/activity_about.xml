@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/aboutTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorOnPrimary"
+        android:text="An application for movie reviews is a platform that lets users browse a lot of different movies and read in-depth reviews. It offers critical movie details including reviews and titles. It creates a community of film aficionados and facilitates the discovery and exchange of new and interesting films. All things considered, it makes watching movies more enjoyable by providing all a movie buff could possibly require in one location."
+        android:textSize="18sp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

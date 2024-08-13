@@ -1,0 +1,23 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Base.Theme.MovieReview2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+    <style name="Theme.MovieReview2" parent="Base.Theme.MovieReview2">
+        <!-- You can add additional customizations here if needed -->
+    </style>
+
+    <style name="CustomActionBar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="titleTextAppearance">@style/CustomActionBarTitleText</item>
+    </style>
+
+    <style name="CustomActionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FA8072</item>
+    </style>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#6200EE</color> <!-- Primary color -->
+<color name="colorOnPrimary">#FFFFFF</color><!-- Text color on primary color -->
+<color name="blue_background">#6589A5</color>
+    <color name="green_background">#00BCD4</color>
+</resources>
+
+
